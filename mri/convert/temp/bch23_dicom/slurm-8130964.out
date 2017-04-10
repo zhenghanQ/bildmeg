@@ -1,0 +1,15 @@
+INFO: Processing 3096 dicoms
+INFO: Reloading existing filegroup.json because /output/bch23/info/bch23.edit.txt exists
+INFO: Doing conversion using dcm2niix
+INFO: Processing 40 dicoms
+INFO: Executing node embedder in dir: /tmp/heudiconvtmpZZTt1R/embedder
+INFO: Processing 149 dicoms
+INFO: Executing node embedder in dir: /tmp/heudiconvtmpZZTt1R/embedder
+INFO: Processing 176 dicoms
+INFO: Executing node embedder in dir: /tmp/heudiconvtmpZZTt1R/embedder
+Converting /output/bch23/dwi/sub-bch23_dwi
+/output/bch23/dwi
+Converting /output/bch23/func/sub-bch23_task-rest_bold
+/output/bch23/func
+Converting /output/bch23/anat/sub-bch23_T1w
+/output/bch23/anat

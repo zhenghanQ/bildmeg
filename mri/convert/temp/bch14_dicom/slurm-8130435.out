@@ -1,0 +1,11 @@
+INFO: Processing 0 dicoms
+Traceback (most recent call last):
+  File "/usr/local/bin/heudiconv", line 849, in <module>
+    main()
+  File "/usr/local/bin/heudiconv", line 845, in main
+    is_bids=args.bids)
+  File "/usr/local/bin/heudiconv", line 695, in convert_dicoms
+    dcmfilter=getattr(mod, 'filter_dicom', None))
+  File "/usr/local/bin/heudiconv", line 309, in process_dicoms
+    lgr.info("Generated sequence info with %d entries", len(info))
+UnboundLocalError: local variable 'info' referenced before assignment

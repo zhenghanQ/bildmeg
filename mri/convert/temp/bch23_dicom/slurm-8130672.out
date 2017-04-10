@@ -1,0 +1,24 @@
+INFO: Processing 3096 dicoms
+INFO: Generated sequence info with 20 entries
+INFO: Doing conversion using dcm2niix
+INFO: Processing 40 dicoms
+INFO: Executing node convert in dir: /tmp/heudiconvtmpSFcKnl/convert
+INFO: Running: dcm2niix -b y -z i -x n -t n -m n -f dwi -o /tmp/heudiconvtmpSFcKnl/convert -s n -v n /tmp/heudiconvtmpSFcKnl/convert/62000-14-1.dcm
+INFO: Executing node embedder in dir: /tmp/heudiconvtmpSFcKnl/embedder
+INFO: Processing 149 dicoms
+INFO: Executing node convert in dir: /tmp/heudiconvtmpSFcKnl/convert
+INFO: Running: dcm2niix -b y -z i -x n -t n -m n -f func -o /tmp/heudiconvtmpSFcKnl/convert -s n -v n /tmp/heudiconvtmpSFcKnl/convert/62000-13-1.dcm
+INFO: Executing node embedder in dir: /tmp/heudiconvtmpSFcKnl/embedder
+INFO: Processing 176 dicoms
+INFO: Executing node convert in dir: /tmp/heudiconvtmpSFcKnl/convert
+INFO: Running: dcm2niix -b y -z i -x n -t n -m n -f anat -o /tmp/heudiconvtmpSFcKnl/convert -s n -v n /tmp/heudiconvtmpSFcKnl/convert/62000-8-1.dcm
+INFO: Executing node embedder in dir: /tmp/heudiconvtmpSFcKnl/embedder
+Converting /output/bch23/dwi/sub-bch23_dwi
+/output/bch23/dwi
+dcm2niix
+Converting /output/bch23/func/sub-bch23_task-rest_bold
+/output/bch23/func
+dcm2niix
+Converting /output/bch23/anat/sub-bch23_T1w
+/output/bch23/anat
+dcm2niix
