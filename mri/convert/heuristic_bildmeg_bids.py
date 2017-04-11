@@ -30,7 +30,7 @@ def infotodict(seqinfo):
             info[dwi].append(s[2])
         elif (sl == 176) and (nt ==1) and ('T1_MPRAGE' in s[12]):
             info[t1]=[s[2]]
-        elif (nt == 3.2) and ('T2' in s[12]):
+        elif (nt == 454.0) and ('T2' in s[12]) and('NORM' in s[18]):
             info[t2].append(s[2])
         else:
             pass
