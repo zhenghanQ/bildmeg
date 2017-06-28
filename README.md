@@ -2,9 +2,9 @@
 meg analysis (structural + brainstorm)
 
 ## Participants
-20 ASD (1 without structural data; 1 with dental spacer; 1 was too far away from the scanner (3280); 4 with noisy data (3292, 3302, 3315, 3317))
-17 TD (1 with dental crowns, 2 with noisy data (3092, 3224), 1 with weird spikes (3302))
-5 ASD-History (1 with noisy data (bch14),)
+* 20 ASD (1 without structural data; 1 with dental spacer; 1 was too far away from the scanner (3280); 4 with noisy data (3292, 3302, 3315, 3317,scsb315))
+* 17 TD (1 with dental crowns, 2 with noisy data (3092, 3224), 1 with weird spikes (3302))
+* 5 ASD-History (2 with noisy data (bch14, bch23))
 
 ## Experiment Design
 |Stimuli    |Block1         |Block2         |Block3  |
