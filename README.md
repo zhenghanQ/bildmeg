@@ -16,6 +16,7 @@ meg analysis (structural + brainstorm)
 ## MEG analysis notes
 1. Epoching (-100, 500)
 2. Peak-to-peak artifact rejection: 6000 fT/cm as the first pass (but maybe looking for bad channels?) moving forward: amplitude > 2000 fT/cm; gradient > 3500 fT/cm/sample (Moseley et al., 2014)?
+3. project to normalized brain (dSPM)
 3. generate subject mean (arithmatic mean) for condition contrast
 ..* Rare Syllable: 213-114
 ..* Freq Syllable: 212-111
